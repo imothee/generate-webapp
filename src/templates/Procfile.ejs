@@ -1,0 +1,5 @@
+web: npm run
+<% if (backend == "go") { %>
+server: gin --all --laddr "localhost" run *.go
+<% } %>
+migrate: npx migrate up 

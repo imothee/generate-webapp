@@ -1,0 +1,21 @@
+module.exports = {
+  purge: [],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    extend: {
+      colors: {
+        light: "#FFF",
+        "light-accent": "#FFF",
+        brand: "#FFF",
+        "dark-accent": "#FFF",
+        dark: "#FFF",
+        "dark-secondary": "#FFF",
+      },
+    },
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+  purge: ["./<%= clientFolder %>/**/*.html", "./<%= clientFolder %>/**/*.js"],
+};
